@@ -115,7 +115,7 @@ commands:
   kit:
     description: Lets you choose a kit
     usage: /kit
-    permission: walls.player
+    permission: walls.op
     permission-message: Sorry, can't allow that command
   prefix:
     description: Set a player prefix
