@@ -162,26 +162,26 @@ public class WallDropper implements Runnable {
 	{
 		if (AutoWalls.mapNumber==1)
 		{
-			new Location(AutoWalls.playing.get(0).getWorld(), 409, 108, -787).getBlock().setType(Material.BEDROCK);
-			new Location(AutoWalls.playing.get(0).getWorld(), 353, 108, -855).getBlock().setType(Material.BEDROCK);
-			new Location(AutoWalls.playing.get(0).getWorld(), 285, 108, -799).getBlock().setType(Material.BEDROCK);
-			new Location(AutoWalls.playing.get(0).getWorld(), 341, 108, -731).getBlock().setType(Material.BEDROCK);
+			new Location(AutoWalls.playing.get(0).getWorld(), 409, 108, -787).getBlock().setType(Material.AIR);
+			new Location(AutoWalls.playing.get(0).getWorld(), 353, 108, -855).getBlock().setType(Material.AIR);
+			new Location(AutoWalls.playing.get(0).getWorld(), 285, 108, -799).getBlock().setType(Material.AIR);
+			new Location(AutoWalls.playing.get(0).getWorld(), 341, 108, -731).getBlock().setType(Material.AIR);
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			new Location(AutoWalls.playing.get(0).getWorld(), 409, 110, -787).getBlock().setType(Material.BEDROCK);
-			new Location(AutoWalls.playing.get(0).getWorld(), 353, 110, -855).getBlock().setType(Material.BEDROCK);
-			new Location(AutoWalls.playing.get(0).getWorld(), 285, 110, -799).getBlock().setType(Material.BEDROCK);
-			new Location(AutoWalls.playing.get(0).getWorld(), 341, 110, -731).getBlock().setType(Material.BEDROCK);
+			new Location(AutoWalls.playing.get(0).getWorld(), 409, 110, -787).getBlock().setType(Material.AIR);
+			new Location(AutoWalls.playing.get(0).getWorld(), 353, 110, -855).getBlock().setType(Material.AIR);
+			new Location(AutoWalls.playing.get(0).getWorld(), 285, 110, -799).getBlock().setType(Material.AIR);
+			new Location(AutoWalls.playing.get(0).getWorld(), 341, 110, -731).getBlock().setType(Material.AIR);
 			
 			Bukkit.broadcastMessage(ChatColor.DARK_RED + "DOWN WITH THE WALLS");
 		}
 		else
 		{
-			new Location(AutoWalls.playing.get(0).getWorld(), -794, 20, -173).getBlock().setType(Material.REDSTONE_TORCH_ON);
+			new Location(AutoWalls.playing.get(0).getWorld(), -794, 20, -173).getBlock().setType(Material.AIR);
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
