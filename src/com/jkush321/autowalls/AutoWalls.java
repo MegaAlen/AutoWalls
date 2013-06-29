@@ -237,7 +237,7 @@ public class AutoWalls extends JavaPlugin implements Listener {
 	    //If you have forked it you can say...
 	    //"This server runs MyFork by Me based on AutoWalls by Jkush321" or something similar
 	    String[] announcements = config.getString("announcements").split(";");
-	    Announcer.messages.add("This server runs AutoWalls by jkush321");
+	    Announcer.messages.add("Please Enjoy");
 	    for (String s : announcements)
 	    {
 	    	Announcer.messages.add(s);
